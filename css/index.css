@@ -1,0 +1,235 @@
+#entete, #menu, #contenu {
+padding:1px 0;
+}
+#entete {
+position: fixed;
+background-image: url(../media/banner.jpeg);
+width: 2600px;
+}
+#main {
+max-width:1500px;
+margin:auto;
+}
+#menu  {
+float:left;
+margin-left: 50px;
+margin-right: 20px;
+}
+#contenu {
+margin-right:50px;
+}
+#texte{
+border: none;
+text-align: center;
+background-color: snow;
+font-size: 0.6cm;
+}
+#title {
+font-size: 0.8cm;
+}
+body{
+background-image: url(../media/banner.jpeg);
+margin: 0;
+padding: 0;
+}
+.debut{
+text-align: center;
+font-size: 30px;}
+h1 {
+font-style: italic;
+font-family: math;
+text-align: left;
+font-size: 1.2cm;
+}
+.titre{
+text-decoration: underline;
+text-align: center;
+font-size: 25px;
+}
+ul {
+text-align: center;
+}
+#musique {
+list-style-type: circle;
+font-size: 20px;
+}
+#oeuvres{
+list-style-type: circle;
+font-size: 20px;
+}
+#autre {
+list-style-type: circle;
+font-size: 20px;}
+#canvas {
+list-style-type: circle;
+font-size: 20px;
+}
+.rect{
+border: none;
+text-align: center;
+background-color: snow;
+}
+hr {
+margin-left: 450px;
+margin-right: 450px;
+border-top: 5px inset black;
+}
+legend{
+	font-size: 25px;
+}
+input[type=text]{
+	border:white ridge 3px;
+	background-color: #D3D3D3D3;
+}
+input[type=email]:invalid{
+border:white ridge 3px;
+	background-color: #cd5c5c;
+}
+input[type=email]{
+border:white ridge 3px;
+	background-color: #D3D3D3D3;
+}
+input[type=url]:invalid{
+border:white ridge 3px;
+	background-color: #cd5c5c;
+}
+input[type=url]{
+border:white ridge 3px;
+	background-color: #D3D3D3D3;
+}
+input[type=number]:in-range{
+background-color: #D3D3D3D3;
+border:white ridge 3px;
+}
+input[type=number]:out-of-range{
+border:white ridge 3px;
+	background-color: #cd5c5c;
+}
+input[type=date]{
+border:white ridge 3px;
+	background-color: #D3D3D3D3;
+}
+input[type=date]:required{
+border:white ridge 3px;
+	background-color: #D3D3D3D3;
+}
+input[type=color]{
+border:white ridge 3px;
+	background-color: #D3D3D3D3;
+}
+input[type=color]:required{
+border:white ridge 3px;
+	background-color: #D3D3D3D3;
+}
+input[type=password]{
+background-color: #D3D3D3D3;
+border:white ridge 3px;
+}
+#pays{
+border:white ridge 3px;
+	background-color: #D3D3D3D3;
+}
+#Commentaire{
+border:white ridge 3px;
+	background-color: #D3D3D3D3;
+}
+input[type=file]:required{
+border:white ridge 3px;
+	background-color: #D3D3D3D3;
+}
+input[type=file]{
+border:white ridge 3px;
+	background-color: #D3D3D3D3;
+}
+input[type=reset]{
+border:white ridge 5px;
+background-color: lightpink;
+}
+input[type=submit]{
+border:white ridge 5px;
+background-color: lightpink;
+}
+label{
+font-size: 0.5cm;
+}
+.boutton{
+display: inline;
+background-color: white;
+border-radius: 200px;
+border: 4px double pink;
+color: pink;;
+text-align: center;
+font-size: 15px;
+padding: 10px;
+height:48px;
+width: 38px;
+cursor: zoom-in;
+}
+.boutons {
+text-align: center;
+font-size: 15px;
+}      
+#bouttonici{
+display: inline;
+background-color: pink;
+border-radius: 200px;
+border: 4px double white;
+color: white;
+text-align: center;
+font-size: 15px;
+padding: 10px;
+height:48px;
+width: 38px;
+cursor: zoom-in;
+}                     
+.recti {
+border: none;
+text-align: center;
+background-color: snow;
+}                                   
+.bouton {
+display: block;
+background-color: pink;
+border-radius: 20px;
+border: snow solid 5px;
+color: white;
+text-align: center;
+font-size: 15px;
+padding: 10px;
+width: 100px;
+cursor: zoom-in;
+margin: auto;
+}          
+p{
+font-size: 0.7cm;
+}  
+.petit {
+font-size: 0.5cm;
+}    
+#faq{
+display: block;
+background-color: pink;
+border: snow solid 8px;
+color: white;
+text-align: center;
+font-size: 15px;
+padding: 10px;
+width: 150px;
+cursor: zoom-in;
+}      
+#sexe{
+font-size: 20px;;
+}
+#dateheure{
+border:white ridge 5px;
+background-color: lightpink;
+}
+.boutonsom{
+border:white ridge 3px;
+background-color: lightpink;
+font-size: 15px;
+color:black;
+}
+#dateheure{
+font-size:15px;
+}

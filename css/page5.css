@@ -1,0 +1,88 @@
+body{
+background-image: url("../media/lastpink.jpeg");
+}
+.debut{
+text-align: center;
+font-size: 30px;
+color:black;
+}
+h1 {
+font-style: italic;
+font-family: math;
+font-size: 40px;
+text-align: center;
+}
+#accueille{
+padding:0;
+}
+.accueill {
+list-style: none;
+}
+.accueil {
+outline: none;
+text-decoration: none;
+display: inline-block;
+width: 17%;
+text-align: center;
+line-height: 3;
+color: gray;
+font-size: 20px;
+}    
+.accueil:link,
+.accueil:visited,
+.accueil:focus {
+background: black;
+color:gray;
+}
+.accueil:hover {
+background: red;
+color:pink;
+}
+.accueil:active {
+background: gray;
+color: red;
+}   
+hr {
+margin-left: 450px;
+margin-right: 450px;
+border-top: 5px outset black;
+}
+.boutton{
+display: inline;
+background-color: black;
+border-radius: 200px;
+border: 4px double black;
+color: white;
+text-align: center;
+font-size: 15px;
+padding: 10px;
+width: 60px;
+cursor: zoom-in;
+}
+#bouttonici{
+display: inline;
+background-color: gray;
+border-radius: 200px;
+border: 4px double black;
+color: white;
+text-align: center;
+font-size: 15px;
+padding: 10px;
+width: 60px;
+cursor: zoom-in;
+}
+#boutons {
+text-align: center;
+}  
+.sommaire{
+border: none;
+background-color: gray;
+font-size: 30px;
+}
+.desc{
+text-align: center;
+}
+.coupepartie{
+font-size: 35px; 
+text-decoration: underline; 
+}

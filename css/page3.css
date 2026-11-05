@@ -1,0 +1,194 @@
+body{
+background-image: url("../media/snkgreen.jpeg");
+margin: 0;
+padding: 0;
+}
+#boutons {
+text-align: center;
+}      
+.boutton{
+display: inline;
+background-color: pink;
+border-radius: 200px;
+border: 4px double pink;
+color: green;
+text-align: center;
+font-size: 15px;
+padding: 10px;
+width: 60px;
+cursor: zoom-in;
+}
+.debut{
+text-align: center;
+font-size: 30px;
+color:pink;
+}
+h1 {
+color:pink;
+font-style: italic;
+font-family: math;
+text-align: center;
+font-size: 40px;
+}
+hr {
+margin-left: 450px;
+margin-right: 450px;
+border-top: 5px outset pink;
+}
+.texte{
+border: dotted pink;
+text-align: center;
+background-image: url("../media/snkgreen.jpeg") ;
+font-size: 0.6cm;
+}
+.titlesom{
+color:green;
+background-color: pink;
+}
+#som{
+font-size: 30px;
+color:green;
+background-color: pink;
+}
+#titre{
+text-decoration: underline;
+text-align: center;
+font-size: 30px;
+}
+ul{
+list-style: upper-roman;
+}
+.title{
+text-decoration: underline;
+text-align: center;
+font-size: 30px;
+color:green;
+background-color: pink;
+margin-right: 400px;
+margin-left: 400px;
+}
+.intro{
+color:green;
+background-color: pink;
+}
+legend{
+color:green;
+background-color: pink;
+}
+#bouttonici{
+display: inline;
+background-color: white;
+border-radius: 200px;
+border: 4px double pink;
+color: green;
+text-align: center;
+font-size: 15px;
+padding: 10px;
+width: 60px;
+cursor: zoom-in;
+}
+.persos{
+margin-right:40px;
+margin-left:40px;
+display: inline-block;
+}
+.figcaption{
+color:green;
+background-color: pink;
+}
+#accueille{
+padding:0;
+}
+.accueill {
+list-style: none;
+}
+.accueil {
+outline: none;
+text-decoration: none;
+display: inline-block;
+width: 17%;
+text-align: center;
+line-height: 3;
+color: black;
+font-size: 20px;
+}    
+.accueil:link,
+.accueil:visited,
+.accueil:focus {
+background: pink;
+color:green;
+}
+.accueil:hover {
+background: white;
+color:pink;
+}
+.accueil:active {
+background: red;
+color: white;
+}      
+#teaser{
+color:green;
+background-color: pink;
+margin-right: 300px;
+margin-left: 300px;
+}
+#fin{
+text-align: center;
+font-size: 25px;
+color:green;
+background-color: pink;
+margin-right:350px;
+margin-left: 350px;
+}
+
+thead,
+tfoot {
+  background-color: pink;
+  color: green;
+}
+
+tbody {
+color:green;
+  background-color: snow;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+}
+
+table {
+margin:auto;
+  border-collapse: collapse;
+  border: 2px dotted green;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+td,
+th {
+  border: 1px solid green;
+  padding: 5px 10px;
+}
+
+td {
+  text-align: center;
+}
+video{
+width:800px;
+}
+.modiflien:hover{
+background: gray;
+}
+.modiflien:active {
+background: snow;
+color: gray;
+}
+.modiflien:visited{
+color: snow;
+}
+.modiflien:link{
+border-bottom: 1px solid;
+color: white;
+}

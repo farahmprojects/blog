@@ -1,0 +1,106 @@
+body{
+background-image: url("../media/cute.jpeg");
+}
+.debut{
+text-align: center;
+font-size: 30px;
+color:black;
+}
+h1 {
+font-style: italic;
+font-family: math;
+font-size: 40px;
+}
+#accueille{
+padding:0;
+}
+.accueill {
+list-style: none;
+}
+.accueil {
+outline: none;
+text-decoration: none;
+display: inline-block;
+width: 17%;
+text-align: center;
+line-height: 3;
+color: black;
+font-size: 20px;
+}    
+.accueil:link,
+.accueil:visited,
+.accueil:focus {
+background: pink;
+color:snow;
+}
+.accueil:hover {
+background: white;
+color:pink;
+}
+.accueil:active {
+background: red;
+color: white;
+}   
+hr {
+margin-left: 450px;
+margin-right: 450px;
+border-top: 5px outset black;
+}
+#boutons {
+text-align: center;
+}  
+.boutton{
+display: inline;
+background-color: white;
+border-radius: 200px;
+border: 4px double black;
+color: black;;
+text-align: center;
+font-size: 15px;
+padding: 10px;
+width: 60px;
+cursor: zoom-in;
+}
+#bouttonici{
+display: inline;
+background-color: black;
+border-radius: 200px;
+border: 4px double white;
+color: white;
+text-align: center;
+font-size: 15px;
+padding: 10px;
+width: 60px;
+cursor: zoom-in;
+}
+.texte{
+border: none;
+background-image: url("../media/mitsuri.jpeg");
+font-size: 30px;
+}
+.petit {
+font-size: 25px;
+margin-left:150px
+}    
+.quest{
+text-align: left;
+}
+.test3{
+float: inline-start;
+}
+#test{
+position: absolute;
+top: 65px; left: 40px;
+}
+#test1{
+position: relative;
+top: 40px; left: 40px;
+}
+#entete {
+position: fixed;
+width: 2600px;
+background-image: url(../media/cute.jpeg);
+}
+span{
+margin-left: 20px;
+}
