@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta name="author" content="Farah MOUTAKI" />
+<meta name="keywords" content="imaffy, pink girly pop, hello kitty, nana, snk"/>
+<meta charset="utf-8">
+<title>Imaffy</title>
+<link rel="stylesheet" type="text/css" href="../css/index.css"
+media="screen"/>
+</head>
+<body>
+
+<div id="entete">
+<h1><img src="../media/libre.webp" alt="petit livre rose" width="130"/>IMAFFY<span id="title"> ˚ ༘♡ ·˚ Bienvenue chez nous, heureuses de vous (re)voir!!₊˚ˑ༄</span></h1> 
+</div>
+
+
+
+<div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
+
+
+
+
+<p class="debut">.・。.・゜✭・.・✫・゜・。. </p>
+<div style="text-align: center"><img src="../media/hkbjr.gif" alt="gif hello kitty qui fait coucou" width="170"/></div>
+
+
+
+
+<div><br/><br/><hr/><br/><br/></div>
+
+
+
+
+<div id="texte">
+<div id="div1" style="display:inline-block;text-align:left;">
+<p>
+<span>⌦ .｡.:*♡</span> Salut!! Nous sommes Imane et Farah 
+</p>
+<p class="petit">
+Bienvenue chez Imaffy ᰔᩚ
+</p>
+<p class="petit">
+Voici notre blog dans lequel nous allons aborder diff&eacute;rrents sujets qui nous passionnent. <br />
+Nous avons h&acirc;te que vous d&eacute;couvriez notre univers!☆
+</p>
+<div class="boutons">
+<a id="faq" href="../html/page4.html" style="text-decoration:none;">en savoir + sur nous</a>
+</div>
+</div>
+<div style="display:inline-block; vertical-align:bottom;">
+<img src="../media/nana.jpeg" alt="photo de l'anim&eacute; nana"/>
+</div>
+</div>
+
+
+
+<div><br/><br/><br/></div>
+
+
+
+
+<div id="main">
+
+<div id="menu">
+
+<fieldset class="recti">
+<legend>📢</legend>
+<div>
+<p class="titre">Actualit&eacute;s:</p>
+<b></b>
+<a class="bouton" href="https://www.bbc.com/" style="text-decoration:none;">BBC</a>
+<a class="bouton" href="https://www.lemonde.fr/" style="text-decoration:none;">Le Monde</a>
+<a class="bouton" href="https://www.futura-sciences.com/" style="text-decoration:none;">Futura-sciences</a>
+<a class="bouton" href="https://www.elle.fr/" style="text-decoration:none;">Elle</a>
+<a class="bouton" href="https://www.femina.fr/" style="text-decoration:none;">Femina</a>
+<a class="bouton" href="https://www.vanityfair.fr/" style="text-decoration:none;">Vanity Fair</a>
+</div>
+</fieldset>
+
+
+
+<fieldset class="recti">
+<legend>𖨆♡𖨆</legend>
+<div>
+<p class="titre">Divertissements:</p>
+<b></b>
+<a class="bouton" href="https://www.google.com/" style="text-decoration:none;">Google</a>
+<a class="bouton" href="https://fr.wikipedia.org/wiki/Histoire_des_langages_de_programmation" style="text-decoration:none;">Wikip&eacute;dia</a>
+<a class="bouton" href="https://www.youtube.com/" style="text-decoration:none;">Youtube</a>
+<a class="bouton" href="https://www.crunchyroll.com/fr/" style="text-decoration:none;">Crunchyroll</a>
+<a class="bouton" href="https://www.netflix.com/fr/" style="text-decoration:none;">Netflix</a>
+<a class="bouton" href="https://www.canalplus.com/" style="text-decoration:none;">Canal+</a>
+</div>
+</fieldset>
+
+</div>
+
+
+<div id="contenu">
+
+<fieldset class="rect">
+<legend>⏲</legend>
+<div>
+<p class="titre">Date et heure:</p>
+<b></b>
+<input id="dateheure" type="button" value="Cliquez pour afficher la date et l'heure" onclick="javascript:h()"/>
+<br/><br/>
+</div>
+</fieldset>
+
+
+
+<fieldset class="rect">
+<legend>ˏˋ°•*⁀➷</legend>
+<div>
+<p class="titre">Sommaire:</p>
+<ul>
+<li id="musique">Coin musique ♬ <a class="boutonsom" href="../html/page2.html" style="text-decoration:none;">(voir page 2)</a></li>
+<li id="oeuvres">SNK 🕷 <a class="boutonsom" href="../html/page3.html" style="text-decoration:none;">(voir page 3)</a></li>
+<li id="autre">Notre histoire (faq) 💬. <a class="boutonsom" href="../html/page4.html" style="text-decoration:none;">(voir page 4)</a></li>
+<li id="canvas">Jettez un oeil &agrave; notre Canevas ♡ <a class="boutonsom" href="../html/page5.html" style="text-decoration:none;">(voir page 5)</a></li>
+</ul>
+</div> 
+</fieldset>
+
+
+
+<fieldset class="rect">
+<legend>﹒ᵔᴗᵔ﹒</legend>
+<div>
+<p class="titre">Parlons de vous!</p>
+<form name="formu" class="valid" onsubmit="return valid()" method="post">  
+<p><label for="pseudo">Votre pseudo:</label>
+<input type="text" id="pseudo" name="pseudo" size="40"/>
+</p>
+<p><label for="np">Votre nom et pr&eacute;nom:</label>
+<input type="text" id="np" name="np" size="40"/>
+</p>
+<p><label for="Naissance">Votre date d'anniversaire:</label>
+<input type="date" id="Naissance" name="Naissance" size="40" required="required"/>
+</p>
+<p id="sexe"> Sexe: <input type="radio" id="h" name="sexe" value="homme"/>
+<label for="h">Homme</label>
+<input type="radio" id="f" name="sexe" value="femme" checked/>
+<label for="f">Femme</label>
+<input type="radio" id="a" name="sexe" value="autre"/>
+<label for="a">Autre</label>
+</p>
+<p><label for="pays">Pays de résidence :</label>
+<select id="pays" name="pays">
+<option value="">--Choisissez un pays--</option>
+<optgroup label="Europe">
+<option value="france">France</option>
+<option value="suisse">Italie</option>
+<option value="allemagne">Allemagne</option>
+<option value="espagne">Espagne</option>
+<option value="royaume-uni">Royaume-Uni</option>
+<option value="autre">Autre</option>
+</optgroup>
+<optgroup label="Afrique">
+<option value="maroc">Maroc</option>
+<option value="algerie">Algérie</option>
+<option value="tunisie">Tunisie</option>
+<option value="&Eacute;gypte">&Eacute;gypte</option>
+<option value="Comores">Comores</option>
+<option value="Autre">Autre</option>
+</optgroup>
+<optgroup label="Amerique">
+<option value="&Eacute;tats-Unis">&Eacute;tats-Unis</option>
+<option value="Canada">Canada</option>
+<option value="Argentine">Argentine</option>
+<option value="Mexique">Mexique</option>
+<option value="Br&eacute;sil">Br&eacute;sil</option>
+<option value="Autre">Autre</option>
+</optgroup>
+<optgroup label="Asie">
+<option value="Japon">Japon</option>
+<option value="Chine">Chine</option>
+<option value="Inde">Inde</option>
+<option value="Indon&eacute;sie">Indon&eacute;sie</option>
+<option value="Tha&iuml;lande">Tha&iuml;lande</option>
+<option value="Autre">Autre</option>
+</optgroup>
+<optgroup label="Oc&eacute;anie">
+<option value="Australie">Australie</option>
+<option value="Nouvelle-Z&eacute;lande">Nouvelle-Z&eacute;lande</option>
+<option value="Fidji">Fidji</option>
+<option value="Nouvelle-cal&eacute;donie">Nouvelle-cal&eacute;donie</option>
+<option value="Polyn&eacute;sie Fran&ccedil;aise">Polyn&eacute;sie Fran&ccedil;aise</option>
+<option value="Autre">Autre</option>
+</optgroup>
+<optgroup label="Autre">
+<option value="Antarctique">Antarctique</option>
+<option value="Autre">Autre</option>
+</optgroup>
+</select>
+</p>
+<p><label for="Postale">Votre adresse postale:</label>
+<input type="text" id="Postale" name="postale" size="40"/>
+</p>
+<p><label for="Email">Votre adresse e-mail:</label>
+<input type="email" id="Email" name="Email" size="40"/>
+</p>
+<p><label for="site">L'url de votre site préféré:</label>
+<input type="url" id="site" name="site" size="40"/>
+</p>
+<p><label for="Couleur">Votre couleur préférée:</label>
+<input type="color" id="Couleur" name="Couleur" size="40"/>
+</p>
+<p><label for="Nombre">Quel sujet vous int&eacute;resse le plus (2-5):</label>
+<input type="number" min="2" max="5" id="Nombre" name="number" required="required"/>
+</p>
+<p><label for="Password">Choisissez un mot de passe:</label>
+<input type="password" id="Password" name="Password" size="40"/>
+</p>
+<p><label for="fichier">Entrez une image de ce qui vous passionne:</label>
+<input type="file" id="fichier" name="fichier" required="required"/>
+</p>
+<p><label for="Commentaire">Commentaires: </label>
+<textarea cols="40" id="Commentaire" rows="5" name="Commentaire"></textarea>
+</p>
+<p>
+<input type="reset" value="Recommencer"/>
+<input type="submit" value="Envoyer mes r&eacute;ponses"/></p>
+</form>
+</div>
+</fieldset>
+</div>
+
+</div>
+
+
+<div><br/><br/><hr/><br/><br/></div>
+
+
+<div class="boutons">
+<a id="bouttonici" href="../html/index.html" style="text-decoration:none;">1</a>
+<a class="boutton" href="../html/page2.html" style="text-decoration:none;">2</a>
+<a class="boutton" href="../html/page3.html" style="text-decoration:none;">3</a>
+<a class="boutton" href="../html/page4.html" style="text-decoration:none;">4</a>
+<a class="boutton" href="../html/page5.html" style="text-decoration:none;">5</a>
+</div>
+
+<p class="debut">.・。.・゜✭・.・✫・゜・。. </p>
+
+
+<script src="../js/index.js">
+</script>        
+</body>
+</html>
