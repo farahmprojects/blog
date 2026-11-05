@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>FAQ</title>
+<link rel="stylesheet" type="text/css" href="../css/page4.css" />
+</head>
+
+<body>
+<h1><img id="test1" src="../media/hkcutie.gif" width="10%" alt="gif hello kitty rose"/>
+<img id="test" src="../media/hkcutie.gif" width="10%" alt="gif hello kitty rose"/>
+
+<span>'*•.¸♡ Notre histoire ♡¸.•*'</span></h1>
+
+<p><br/></p>
+
+
+<p class="debut">╭── ⋅ ⋅ ── ✩ ── ⋅ ⋅ ──╮</p>
+
+<p><br/></p>
+
+<p id="accueille" style="text-align:center;">
+<span class="accueill"><a class="accueil" href="../html/page3.html">Pr&eacute;c&eacute;dent</a></span>
+<span class="accueill"><a class="accueil" href="../index/index.html">Accueil</a></span>
+<span class="accueill"><a class="accueil" href="../html/page5.html">Suivant</a></span>
+</p>
+       
+<p><br/></p><hr/><p><br/><br/></p>
+
+<div class="texte">
+<div>
+<p class="quest">
+<img class="test3" src="../media/cutypink.png" width="3%" alt="petite icone question rose style mario"/>Q-1: On veut en apprendre plus sur chacune de vous deux! Pr&eacute;sentez vous!
+</p>
+<p class="petit">
+╰┈➤Merci pour ta question! <br/><br/>
+-Imane:"J’ai été au collège général Louis Aragon à Chatenoy-le-Royal, j’ai eu mon brevet mention Bien en 2019 et je suis ensuite pass&eacute;e au lyc&eacute;e. 
+J’ai fait une seconde g&eacute;n&eacute;rale et j’ai fini par choisir les sp&eacute;cialit&eacute;s Maths, SVT et SES car je comptais au d&eacute;part faire des &eacute;tudes de psychologie. 
+J’ai fait mon ann&eacute;e de premi&egrave;re et j’ai d&eacute;cid&eacute; d’abandonner la sp&eacute; maths mais prendre l’option maths compl&eacute;mentaires en terminale. 
+En terminale j’&eacute;tais tr&egrave;s perdue, je ne savais plus quoi faire apr&egrave;s le lyc&eacute;e. J’enchainais les rendez-vous chez la conseill&egrave;re d’orientation mais rien ne m’aidait. 
+J’ai choisi informatique seulement car on me disait qu’il y avait de l’avenir. J’obtient mon bac en 2022 puis rentre en L1R de la fac de science technique, j’aime pas vraiment et h&eacute;site souvent &agrave; changer de cursus, mais je ne l’ai pas fait. 
+Maintenant me voila en L1 en 2024." <br/><br/>
+-Farah:"Hello, moi c'est Farah, j'ai 20 ans et je viens de M&acirc;con, pas loin de Lyon. J'ai &eacute;t&eacute; au college Saint-exupery, o&ugrave; j'ai obtenu mon brevet avec mention tr&egrave;s bien. 
+Ensuite j'ai fait mes ann&eacute;es Lyc&eacute;e au Lamartine, un lycee g&eacute;n&eacute;ral, o&ugrave; j'ai obtenu mon bac avec mention bien avec les sp&eacute;cialit&eacute;s SVT MATHS LLCE.
+Je ne savais pas dans quoi me lancer, j'ai jamais eu de m&eacute;tier de r&ecirc;ve mais plut&ocirc;t &eacute;t&eacute; int&eacute;ress&eacute;e par plusieurs choses en m&ecirc;me temps, et ce depuis petite.
+J'h&eacute;sitais avec une &eacute;cole d'ing&eacute;nieurs, PASS (m&eacute;decine) et l'architecture. 
+J'avais donc fait le choix de faire medecine, je garde de bons souvenirs des cours, c'&eacute;tait super passionnant mais je ne me voyais pas l&agrave; dedans... j'ai quand m&ecirc;me &eacute;t&eacute; au bout de l'ann&eacute;e parce que les cours me passionnaient. 
+Apr&egrave;s la premi&egrave;re ann&eacute;e de m&eacute;decine je r&eacute;fl&eacute;chissais encore &agrave; ce que je pourrais faire, je me voyais exercer dans aucun domaine. J'ai donc d&eacute;cid&eacute; de revenir sur mes pas et de m'orienter vers mes autres choix.
+Puis quelques semaines avant la rentr&eacute;e je m'&eacute;tais inscrite en L1 info pour pouvoir suivre par la suite 
+un cycle ing&eacute;nieur. J'ai donc &eacute;t&eacute; accept&eacute;e &agrave; condition de faire une ann&eacute;e de rem&eacute;diation (L1R), que j'ai suivie l'an dernier. Me voila cette ann&eacute;e en L1 informatique-&eacute;lectronique. 
+Sinon je suis passionn&eacute;e par pas mal de choses dans la vie (musique, japon, mode, cin&eacute;ma, livres, l'astronomie, l'art en general...) et je suis fi&egrave;re de vous annoncer que je suis ceinture noire de karat&eacute;."
+</p>
+</div>
+</div>
+
+
+
+<div><br/></div>
+       
+       
+       
+<div class="texte">
+<div>
+<p class="quest">
+<img class="test3" src="../media/cutypink.png" width="3%" alt="petite icone question rose style mario"/>Q-2: Comment vous &ecirc;tes vous rencontr&eacute;es ??
+</p>
+<p class="petit">
+-Imane et Farah:"On s'est rencontr&eacute;es l'ann&eacute;e derni&egrave;re en L1R, en rem&eacute;diation. Fun fact: on partage la m&ecirc;me date d'anniversaire: le 14 juin 2003 pour moi (Farah) et 2004 pour moi (Imane). On s'est tout de suite ben entendu, c'&eacute;tait comme un coup de foudre amical. 
+Par la suite on s'est rendu compte qu'en plus de partager le m&ecirc;me anniversaire on partageait aussi les m&ecirc;mes go&ucirc;ts et passions. En plus de &ccedil;a on a souvent le m&ecirc;me avis sur les sujets sur lesquels on parle. Ce qui est dr&ocirc;le aussi c'est que nos fr&egrave;res partagent aussi la m&ecirc;me date d'anniversaire. 
+M&ecirc;me &agrave; l'heure d'aujourd'hui on a du mal &agrave; y croire &agrave; vrai dire. &Ccedil;a parait irr&eacute;el quand on le dit et puis les gens ont du mal &agrave; nous croire quand on le raconte."
+</p>
+</div>
+</div>
+
+
+
+<div><br/></div>
+       
+    
+    
+    
+<div class="texte">
+<div>
+<p class="quest">
+<img class="test3" src="../media/cutypink.png" width="3%" alt="petite icone question rose style mario"/>Q-3: Comment les id&eacute;es du site vous sont-elles venues !? 
+</p>
+<p class="petit">
+-Farah et Imane:"Pour &ecirc;tres honn&ecirc;tes, les id&eacute;es ont vraiment fus&eacute;. &Agrave; vrai dire, nous partageons les m&ecirc;mes passions encore une fois donc les sujets ont vraiment &eacute;t&eacute; faciles &agrave; trouver!! Nous sommes toutes les deux fan de la couleur rose, d'hello kitty et tout ce qui s'en suit comme vous pouvez le voir hihi. 
+Pour ce qui est de la colorimt&eacute;rie et des d&eacute;cos du site, on avait d&eacute;j&agrave; notre petite id&eacute;e, mais en ce qui concerne le contenu... &ccedil;a a &eacute;t&eacute; plus dur. On a beaucoup h&eacute;sit&eacute;, chang&eacute; plusieurs fois de sujets en cours de route mais on a pr&eacute;f&egrave;r&eacute; rester nous-m&ecirc;mes, 
+alors voil&agrave; la version finale. On pensait justement que le fait d'avoir autant de choses en commun allait nous aider &agrave; &ecirc;tre efficaces par rapport au choix des sujets etc... mais tout l'inverse. Apr&egrave;s, on pense sinc&egrave;rement que les id&eacute;es et sujets sont bien choisis. Maintenant &agrave; vous d'en d&eacute;cider. En tout cas nous en sommes fi&egrave;res et pensons que c'est l'essentiel. 
+N'oubliez jamais de faire quelque chose pour vous et non pas pour les autres. Vous en ressortirez que plus forts.
+Nous avons vraiment pris plaisir &agrave; faire ce site. Maintenant nous esp&egrave;rons qu'il vous plaira :))"
+</p>
+</div>
+</div>
+
+
+
+<div><br/></div>
+
+
+
+
+<div class="texte">
+<div>
+<p class="quest">
+<img class="test3" src="../media/cutypink.png" width="3%" alt="petite icone question rose style mario"/>Q-4: Avez vous des projets pour le futur?
+</p>
+<p class="petit">
+Tout d'abord, merci pour ta question! <br/><br/>
+-Imane:"J’aimerais plus tard travailler &agrave; partir de chez moi, car si j’ai des enfants je voudrais que ça soit moi qui les &eacute;l&egrave;ve et pouvoir les voir grandir. Mais si je dois travailler en dehors de chez moi ça ne me d&eacute;rangererait pas plus que &ccedil;a.
+J’aimerais avoir un travail stable et o&ugrave; je ne risque pas d’accident ou de finir par &ecirc;tre dans l’incapacit&eacute; de travailler. 
+Je ne sais pas si je vais continuer jusqu’au master car j’en ai pas vraiment le courage en toute honn&ecirc;tet&eacute;."<br/><br/>
+-Farah:"Dure dure comme question pour quelqu'un qui n'a jamais su se projeter mais &agrave; vrai dire j'en ai une petite id&eacute;e. J'aimerais travailler de chez moi &eacute;galement, je pense que &ccedil;a me faciliterait beaucoup de choses. J'aimerais aussi beaucoup voyager, 
+mon r&ecirc;ve serait de faire le tour du monde. Je commencerais assur&egrave;ment par le Japon."
+</p>
+</div>
+</div>
+
+
+
+<div><br/></div>
+
+
+
+
+<div class="texte">
+<div>
+<p class="quest">
+<img class="test3" src="../media/cutypink.png" width="3%" alt="petite icone question rose style mario"/>Q-5: O&ugrave; vous voyez-vous dans 5 ans...?
+</p>
+<p class="petit">
+-Farah:" Dans 5 ans, j'aimerais avoir termin&eacute; mes &eacute;tudes c'est &agrave; dire valider ma licence ainsi qu'un cycle ing&eacute;nieur. J'esp&egrave;re que j'aurais accompli tous les objectifs que je me suis fix&eacute;s.
+Dernier point mais non des moindres, j'esp&egrave;re &ecirc;tre heureuse et &eacute;panouie dans les choix que j'aurais fait... j'esp&egrave;re du plus profond de mon coeur que je ne regretterais aucun choix."<br/><br/>
+-Imane:"Dans 5 ans je ne sais pas trop ce je ferais o&ugrave; qui est-ce que je serais mais j’esp&egrave;re que j’en aurais fini avec les &eacute;tudes."
+</p>
+</div>
+</div>
+
+
+
+<p><br/></p><hr/><p><br/><br/></p>
+       
+
+       
+
+<div id="boutons">
+<a class="boutton" href="../index/index.html" style="text-decoration:none;">1</a>
+<a class="boutton" href="../html/page2.html" style="text-decoration:none;">2</a>
+<a class="boutton" href="../html/page3.html" style="text-decoration:none;">3</a>
+<a id="bouttonici" href="../html/page4.html" style="text-decoration:none;">4</a>
+<a class="boutton" href="../html/page5.html" style="text-decoration:none;">5</a>
+</div>
+
+<p class="debut">╰── ⋅ ⋅ ── ✩ ── ⋅ ⋅ ──╯</p>
+
+<script type="text/javascript" src="../js/script.js">
+</script>        
+</body>
+</html>

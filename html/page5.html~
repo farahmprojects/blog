@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+  <meta name="author" content="Farah MOUTAKI" />
+<meta name="keywords" content="imaffy, pink girly pop, hrllo kitty, nana, snk"/>
+    <meta charset="utf-8">
+    <title>
+      Notre Canevas
+    </title>
+     <link rel="stylesheet" href="../css/page5.css" 
+     media="screen"/>
+  </head>
+  <body onload="function()">
+
+<p class="debut">︵‿︵‿୨♡୧‿︵‿︵</p>
+<h1>Notre Canevas ✎</h1>
+
+<div style="text-align: center"><img src="../media/canvashk.gif" width="160" alt="gif d'hello kitty avec un pinceau dessinant un coeur sur l'ecran"/></div>
+
+<p><br/><br/></p>
+
+<p id="accueille" style="text-align:center;">
+<span class="accueill"><a class="accueil" href="../html/page4.html">Pr&eacute;c&eacute;dent</a></span>
+<span class="accueill"><a class="accueil" href="../index/index.html">Accueil</a></span>
+</p>
+
+<p><br/><hr/><p><br/></p>
+
+<div class="sommaire">
+<p class="desc">Merci de porter votre int&eacute;r&ecirc;t pour notre Canevas! ﹒⪩⪨﹒<br/>
+1.Vous trouverez en premier lieu le Canevas<br/>
+2.Puis nous vous expliquerons comment nous y sommes parvenues!
+</p>
+</div>
+
+
+<p><br/><hr/><p><br/></p>
+
+
+<div style="text-align: center;">
+<canvas id="canvas" width="1400" height="600" ></canvas>
+</div>
+
+
+<p><br/><hr/><p><br/></p>
+
+
+<div class="sommaire">
+<p class="desc">
+<span class="coupepartie">I:</span><br/><br/>
+Tout d'abord, nous avons commenc&eacute; &agrave; faire des cercles (ceux pr&eacute;sents sur les c&ocirc;t&eacute;s) gr&acirc;ce &agrave; la fonction arc de Javascript, 
+ensuite nous avons proc&eacute;d&eacute; aux rectangles (gris) qui s'apparentent &agrave; des lignes, gr&acirc;ce &agrave; des successions de tra&ccedil;ages
+de chemins, points par points. <br/>
+En ce qui concerne le dessin de la glace. Il faut savoir que nous avons utilis&eacute; les courbes de B&eacute;zier de degr&eacute; 2. 
+Nous avons tout d'abord commenc&eacute; &agrave; tracer la forme du "c&ocirc;ne", gr&acirc;ce aux fonctions Javascript permettant de tracer les courbes de B&eacute;zier. 
+Maintenant entrons un peu plus dans les d&eacute;tails:<br/><br/>
+1. Initialisation du canvas et du contexte.<br/>
+<img src="../media/init.png" alt="premiere partie du code javascript"/><br/>
+Les t&acirc;ches s'effectuent dans l'ordre:<br/>
+a- R&eacute;cup&egrave;re l'&eacute;l&eacute;ment HTML avec l'ID "canvas".<br/>
+b- Initialise le contexte du canvas en 2D.<br/>
+c- Change la couleur de fond du canvas en noir.<br/><br/>
+2. Dessin de lignes grises sur les c&ocirc;t&eacute;s.<br/>
+<img src="../media/2emepartie.png" alt="deuxieme partie du code javascript"/><br/>
+Cette partie du code dessine deux rectangles gris pour cr&eacute;er des lignes sur les c&ocirc;t&eacute;s du canvas.<br/><br/>
+3.Dessin de cercles gris sur les c&ocirc;t&eacute;s.<br/>
+<img src="../media/3emepartie.png" alt="troisieme partie du code javascript"/><br/>
+Cette partie du code dessine plusieurs cercles gris aux coins du canvas en utilisant la m&eacute;thode arc() du contexte 2D.
+Ici ce n'est que la partie du code que pour un seul cercle, vous comprendrez donc qu'elle se r&eacute;p&egrave;te au total 10 fois. 
+&Agrave; noter que les points servant &agrave; positionner les cercles changeront. Par exemple, les points (ligne 25) changent pour le deuxi&egrave;me cercle
+pour laisser place aux coordonn&eacute;es suivantes: (100, 200, 40, 0, Math.PI * 2, false), etc...<br/><br/>
+4.Dessin de la glace et des boules de glace<br/>
+C&ocirc;ne:<br/>
+<img src="../media/4emepartie.png" alt="quatrieme partie du code javascript"/><br/>
+Cette partie dessine une forme de glace &agrave; l'aide d'une courbe de B&eacute;zier de degr&eacute; 2. Le code g&egrave;re &eacute;galement le contour et le remplissage de cette forme.<br/>
+Boules de glace:<br/>
+<img src="../media/5emepartie.png" alt="cinquieme partie du code javascript"/><br/>
+<img src="../media/5emepartiea.png" alt="cinquiemea partie du code javascript"/><br/>
+<img src="../media/5emepartieb.png" alt="cinquiemeb partie du code javascript"/><br/>
+Et celle-ci s'occupe de dessiner plusieurs boules de glace de diff&eacute;rentes tailles et couleurs sur le canvas. Il faut garder en t&ecirc;te que ce n'est qu'un exemple, les autres boules ont le m&ecirc;ne sch&eacute;ma 
+mais comme les cercles, avec des points de positionnemt diff&eacute;rents. De plus, en ce qui concerne le premier &eacute;tage des boules, en plus d'avoir des points de
+positionnement diff&eacute;rents, "true" prend la place de "false" afin de tracer des demi cercles et non des cercles entiers. <br/>
+Nous expliquerons plus loin le choix des points de contr&ocirc;le.<br/><br/>
+6.Dessin du c&oelig;ur<br/>
+<img src="../media/6emepartie.png" alt="sixieme partie du code javascript"/><br/>
+Enfin, cette partie dessine une forme de c&oelig;ur &agrave; l'aide de deux courbes de B&eacute;zier de degr&eacute; 3. Une partie du code g&egrave;re &eacute;galement le contour et le remplissage du c&oelig;ur.
+M&ecirc;me chose que pour la glace, nous expliquerons les choix des points de contr&ocirc;le plus loin.<br/><br/>
+7. G&eacute;n&eacute;ral:<br/>
+Ces sections utilisent principalement les m&eacute;thodes du contexte 2D de HTML canvas pour dessiner diverses formes et lignes. 
+Chaque partie utilise des coordonn&eacute;es et des param&egrave;tres sp&eacute;cifiques pour positionner et styliser les &eacute;l&eacute;ments dessin&eacute;s sur le canvas. 
+Maintenant passons aux points de contr&ocirc;le.<br/><br/>
+<span class="coupepartie">II:</span><br/><br/>
+Les points de contrôle (&eacute;galement appel&eacute;s points de contr&ocirc;le de B&eacute;zier) sont des points sp&eacute;cifiques utilis&eacute;s pour d&eacute;finir la courbe d'une courbe de B&eacute;zier. 
+Ici, les points de contr&ocirc;le sont utilis&eacute;s pour cr&eacute;er des courbes de B&eacute;zier de degr&eacute;s 2 et 3, qui sont des courbes de B&eacute;zier quadratiques et cubiques respectivement.<br/><br/>
+1. Courbes de B&eacute;zier de degr&eacute; 3 (Points de contr&ocirc;le cubiques):<br/>
+Dans le code, les courbes de B&eacute;zier de degr&eacute; 3 (cubiques) sont d&eacute;finies avec la m&eacute;thode bezierCurveTo(cp1x, cp1y, cp2x, cp2y, x, y). Cette m&eacute;thode prend trois paires de coordonn&eacute;es comme arguments:
+(cp1x, cp1y) et (cp2x, cp2y) sont les points de contr&ocric;le pour les courbes de B&eacute;zier cubiques. Ils influencent la direction et la forme de la courbe entre le point de d&eacute;part et le point final.
+(x, y) est le point final de la courbe.<br/><br/>
+2. Courbes de B&eacute;zier de degr&eacute; 2 (Points de contr&ocirc;le quadratiques):<br/>
+Les courbes de B&eacute;zier de degr&eacute; 2 (quadratiques) sont d&eacute;finies avec la m&eacute;thode quadraticCurveTo(cpx, cpy, x, y). Cette m&eacute;thode prend deux paires de coordonn&eacute;es comme arguments:
+(cpx, cpy) est le point de contr&ocric;le pour la courbe de B&eacute;zier quadratique. Il affecte la direction et la forme de la courbe entre le point de d&eacute;part et le point final.
+(x, y) est le point final de la courbe.<br/><br/>
+3. Exemple:<br/>
+Dans la partie du cœur:<br/>
+<img src="../media/7emepartie.png" alt="septieme partie du code javascript"/><br/>
+(250, 70) et (250, 300) sont les points de contr&ocric;le pour la premi&egrave;re courbe de B&eacute;zier cubique.
+(400, 350) est le point final de la courbe.
+Ces points de contr&ocirc;le d&eacute;terminent la forme pr&eacute;cise de la courbe de B&eacute;zier dessin&eacute;e entre le point de d&eacute;part (400, 200) et le point final (400, 350).
+De m&ecirc;me, les autres parties du code utilisent des points de contr&ocirc;le sp&eacute;cifiques pour cr&eacute;er diff&eacute;rentes formes &agrave; l'aide de courbes de B&eacute;zier. 
+Ces points sont déterminants pour la forme exacte de la courbe et sont positionnés pour obtenir les formes souhaitées pour chaque dessin.<br/><br/>
+4. Choix:<br/>
+Le choix des coordonn&eacute;es des points de contr&ocirc;le dans les courbes de B&eacute;zier est essentiel pour d&eacute;terminer la forme et la direction de la courbe dessin&eacute;e. 
+Ces coordonn&eacute;es sont d&eacute;finies en fonction de la forme sp&eacute;cifique que l'on souhaite obtenir pour une courbe donn&eacute;e.
+Dans notre cas, pour le c&oelig;ur, les points de contrôle ont &eacute;t&eacute; choisis pour obtenir la forme classique d'un c&oelig;ur. En modifiant ces coordonn&eacute;es, la forme du c&oelig;ur peut être ajust&eacute;e.
+Le point de d&eacute;part est &agrave; (400, 200), et le point final est &agrave; (400, 350), permettant ainsi d'avoir une partie sup&eacute;rieure du c&oelig;ur plus étroite et la pointe en bas.
+Les points de contrôle intermédiaires influencent la courbure de la courbe pour obtenir une forme de cœur symétrique et lisse. 
+De la m&ecirc;me mani&egrave;re pour la glace, les points de contr&ocirc;le ici sont d&eacute;finis pour obtenir une forme de glace triangulaire.
+Le point de d&eacute;part est &agrave; (800, 350), le point final est &agrave; (1100, 350), et le point de contr&ocirc;le est &agrave; (950, 500), ce qui cr&eacute;e une courbe qui monte et redescend pour former la pointe de la glace.<br/><br/>
+5. Conclusion:<br/>
+Les autres parties du code utilisent des courbes de B&eacute;zier pour dessiner des &eacute;l&eacute;ments tels que des cercles, des lignes et d'autres formes. 
+Les coordonn&eacute;es pour ces courbes ont &eacute;t&eacute; sp&eacute;cifié&eacute;s pour placer ces &eacute;l&eacute;ments &agrave; des emplacements sp&eacute;cifiques sur le canvas, en ajustant les rayons, les angles et les positions pour obtenir l'apparence souhait&eacute;e.
+En r&eacute;sum&eacute;, les coordonn&eacute;es des points de contr&ocirc;le dans les courbes de B&eacute;zier ont &eacute;t&eacute; choisies de mani&egrave;re pr&eacute;cise pour obtenir les formes d&eacute;sir&eacute;es pour chaque élément dessin&eacute;. 
+Elles sont ajust&eacute;es et positionn&eacute;es de mani&egrave;re &agrave; obtenir les contours et les formes sp&eacute;cifiques voulus pour chaque partie du dessin. 
+Ces valeurs sont détermin&eacute;es par la conception artistique ou graphique que le développeur a souhait&eacute; r&eacute;aliser dans le code.<br/><br/>
+</p>
+</div>
+
+
+<p><br/></p><hr/><p><br/><br/></p>
+
+
+<div id="boutons">
+<a class="boutton" href="../index/indexh.html" style="text-decoration:none;">1</a>
+<a class="boutton" href="../html/page2.html" style="text-decoration:none;">2</a>
+<a class="boutton" href="../html/page3.html" style="text-decoration:none;">3</a>
+<a class="boutton" href="../html/page4.html" style="text-decoration:none;">4</a>
+<a id="bouttonici" href="../html/page5.html" style="text-decoration:none;">5</a>
+</div>
+
+
+<p class="debut">︵‿︵‿︵‿︵</p>
+
+
+<script src="../js/page5.js">
+</script>    
+</body>
+</html>
